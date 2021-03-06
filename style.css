@@ -33,8 +33,8 @@ a .icon{
     font-size: 40px;
     color: rgb(65, 62, 62);
 }
-a i {
-    margin-left: 220px;
+a i , h3.kontak {
+    margin-left: 200px;
 }
 
 
@@ -121,7 +121,7 @@ a i {
             color: rgb(65, 62, 62);
             
         }
-        a i {
+        a i , h3.kontak {
             margin-left: 530px;
         }
         /* akhir kontak */
