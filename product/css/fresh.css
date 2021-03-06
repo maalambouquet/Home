@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+}
+
+.jumbotron p.intro {
+    align-items: center;
+}
+
+.produk p {
+    margin-top: 20px;
+}

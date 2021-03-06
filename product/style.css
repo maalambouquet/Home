@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navbar */
+nav {
+    background-color:#795858;
+}
+
+/* dropdown */
+.dropdown-menu {
+    background-color:#795858;
+
+}
+
+.dropdown-menu li a {
+    color: white;
+    box-sizing: 10%;
+}
+
+/* img logo */
+a img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+a b {
+    font-size: 10px;
+}
+
+/* akhir navbar */
+
+/* jumbotron-intro */
+
+.jumbotron{
+    height: 240px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+p.intro{
+    padding-top: 50px;
+    font-size: 19px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* akhir */
+
+/* produk */
+
+.produk img {
+    width: 250px;
+    height: 250px;
+}
+
+.produk h5{
+    margin-left: 75px;
+    font-size: 17px;
+}
+.produk p span {
+    margin-left: 50px;
+}
+.produk p a {
+    margin-left: 13px;
+}
+
+.available{
+    margin-right: 75px;
+}
+/* akhir produk */
+
+.produk p a {
+    border-color: black;
+    border-radius: 10px;
+}
+
+
+/* situs dekstop */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* navbar */
+    ul {
+        margin-left: 700px;
+
+    }
+
+    li a {
+        margin-left: 100px;
+    }
+
+    nav li a {
+        margin-left: 10px;
+
+    }
+
+    .dropdown:hover>.dropdown-menu,
+    .dropright:hover>.dropdown-menu {
+        display: block;
+    }
+    /* akhir navbar */
+
+
+    .pesan {
+        margin-top: 350px;
+        margin-left: -200px;
+    }

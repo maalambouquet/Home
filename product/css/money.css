@@ -1,0 +1,49 @@
+
+.produk .row .h51{
+    
+    margin-left:-2px;
+}
+
+.produk .row .h52{
+    
+    margin-left:-2px;
+}
+
+
+
+
+/* situs dekstop */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    
+.produk .row .h51{
+    
+    margin-left: 280px;
+}
+.produk .row p .a1{
+    margin-left: 285px;
+    margin-top: 20px;
+}
+.produk .row p .a2{
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+    .img1{
+        margin-left: 250px;
+    }
+
+    .img2{
+        margin-left: 50px;
+    }
+
+    .produk .row .h52{
+    
+        margin-left: -8px;
+    }
+
+    .produk .row  .h52{
+        margin-left: 55px;
+    }
+
+} 

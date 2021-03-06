@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+/* navbar */
+nav{
+    background-color:#795858;
+}
+/* dropdown */
+.dropdown-menu{
+    background-color:#795858;
+}
+.dropdown-menu li a {
+    color: white;
+    box-sizing: 10%;
+}
+/* img logo */
+a img{
+    border-radius: 50%;
+    width: 40px;
+}
+a b{
+    font-size: 10px;
+}
+/* akhir navbar */
+
+
+
+
+/* faq */
+.box{
+    width: 320px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+ }
+ 
+ .box .heading{
+    background:#795858;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+.faqs{
+    padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+}
+
+details{
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Rubik";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+details summary{
+    outline: none;
+}
+ /* akhir faq */
+
+p.text{
+    margin-left: 30px;
+}
+
+
+@media (min-width: 1200px) { 
+
+    /* navbar */
+ul{
+    margin-left: 740px;
+
+}
+
+nav li a{
+    margin-left:50 px;
+    
+} 
+
+.dropdown:hover > .dropdown-menu , .dropright:hover > .dropdown-menu{
+    display: block;
+}
+    /* akhir navbar */
+
+    /* faq */
+    .box{
+        width: 600px;
+}
+
+    /* akhir faq */
+
+    .span1{
+        margin-left: 20px;
+    }
+    .b1{
+        margin-left: 20px;
+    }
+    .span2{
+        margin-left: 75px;
+    }
+}
